@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.card{
+    width: 7%;
+    height: 150px;
+    background-color: blue;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.selected{
+    transform: scale3d(1.5, 1.5, 1.5);
+    box-shadow: 0px 0px 10px black;
+}
+.selected2{
+    transform: scale3d(1.2, 1.2, 1.2);
+}
